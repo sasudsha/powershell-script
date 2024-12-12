@@ -6,3 +6,4 @@ function Enable-InternetExplorerESC {
     Stop-Process -Name Explorer
     Write-Host "IE Enhanced Security Configuration (ESC) has been enabled." -ForegroundColor Green
 }
+Enable-InternetExplorerESC
